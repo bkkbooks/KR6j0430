@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6j0430/v1
+canonical_location: https://kanripo.org/bkk/KR6j0430/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 聖無動尊安鎮家國等法
+  identifiers:
+    alt_id:
+    - T21n1203
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1203.xml
+    old_id: T21n1203
+  edition:
+    short: bkk
+editions:
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: Ｂ
+  label: Ｂ
+  source_xml_id: wit2
+- short: 原
+  label: 原
+  source_xml_id: wit3
+- short: Ａ
+  label: Ａ
+  source_xml_id: wit4
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0430_000.yaml, hash: 'sha256:953e30de25cfa30e7d502f733024416a92847e06eb1d0a463e95241bec42756e'}
+  - {seq: 1, filename: KR6j0430_001.yaml, hash: 'sha256:08a4639f81712008c9de775957a69fc98a0bea3c416c768d2f1e62de2fc541c8'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0430_001.markers.yaml, hash: 'sha256:3966f01352b6c619d5a6d4484a755519c53ea9c9020fbd4e378d4feb2d1f55ef'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0430_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3944
+  label: 聖無動尊安鎮家國等法
+  type: juan
+  level: 1
+hash: sha256:b98e9ebd6e5ed62817ca7fd677b6e8454fd663b0ad43e63b232a68ae5bbb4474
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
