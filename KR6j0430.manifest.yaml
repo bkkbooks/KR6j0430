@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0430_000.yaml, hash: 'sha256:953e30de25cfa30e7d502f733024416a92847e06eb1d0a463e95241bec42756e'}
-  - {seq: 1, filename: KR6j0430_001.yaml, hash: 'sha256:08a4639f81712008c9de775957a69fc98a0bea3c416c768d2f1e62de2fc541c8'}
+  - {seq: 1, filename: KR6j0430_001.yaml, hash: 'sha256:bda76ee2f6c35e5589adff9c6de89708b2fde49cfe361bfc4c237db68cd5fc5d'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0430_001.markers.yaml, hash: 'sha256:3966f01352b6c619d5a6d4484a755519c53ea9c9020fbd4e378d4feb2d1f55ef'}
+  - {seq: 0, role: markers, filename: assets/KR6j0430_000.markers.yaml, hash: 'sha256:34a09d0c192ab34bc844d1b644923c78c5839f9e6230b371256254907683f9b8'}
+  - {seq: 1, role: markers, filename: assets/KR6j0430_001.markers.yaml, hash: 'sha256:f3beeea25c6f32c84daaae3f95eb323b6ba4c8a59f11e8fc24d0fc824e581859'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 聖無動尊安鎮家國等法
   type: juan
   level: 1
-hash: sha256:b98e9ebd6e5ed62817ca7fd677b6e8454fd663b0ad43e63b232a68ae5bbb4474
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:12bb10de974084261f4a00768a4f43142c37a04f33ea4eb77e9752d8c658caf1
