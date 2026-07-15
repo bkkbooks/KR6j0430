@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0430/v1
 canonical_location: https://kanripo.org/bkk/KR6j0430/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 聖無動尊安鎮家國等法
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0430_000.yaml, hash: 'sha256:953e30de25cfa30e7d502f733024416a92847e06eb1d0a463e95241bec42756e'}
-  - {seq: 1, filename: KR6j0430_001.yaml, hash: 'sha256:bda76ee2f6c35e5589adff9c6de89708b2fde49cfe361bfc4c237db68cd5fc5d'}
+  - {seq: 1, filename: KR6j0430_001.yaml, hash: 'sha256:9d7c269f24d756ca68411d00ffc60466e2a2e33a3307a8deb83a47772a414d07'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0430_000.markers.yaml, hash: 'sha256:34a09d0c192ab34bc844d1b644923c78c5839f9e6230b371256254907683f9b8'}
-  - {seq: 1, role: markers, filename: assets/KR6j0430_001.markers.yaml, hash: 'sha256:f3beeea25c6f32c84daaae3f95eb323b6ba4c8a59f11e8fc24d0fc824e581859'}
+  - {seq: 1, role: markers, filename: assets/KR6j0430_001.markers.yaml, hash: 'sha256:679df1499aabf388cb2be70d3b58e160828896207fa691f2beac1b3b5b90c45f'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 聖無動尊安鎮家國等法
   type: juan
   level: 1
-hash: sha256:12bb10de974084261f4a00768a4f43142c37a04f33ea4eb77e9752d8c658caf1
+hash: sha256:cbb2b8cb56195589beb350d1abc8873ea822c5c229f4a1b5038521432671907c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
